@@ -46,6 +46,13 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
       ii. Color the graph points with the labels found using K-means.
       
       iii. Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+      
+   ## Optimize Clusters with Principal Component Analysis
+•	Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
+•	Retrieve the explained variance to determine how much information can be attributed to each principal component and then answer the following question in your notebook:
+o	What is the total explained variance of the three principal components?
+•	Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame
+
 
 
 
