@@ -40,7 +40,6 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 •	Create a copy of the original data and add a new column with the predicted clusters.
 
 •	Create a scatter plot using hvPlot as follows:
-
       i. Set the x-axis as "PC1" and the y-axis as "PC2".
       ii. Color the graph points with the labels found using K-means.
       iii. Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
